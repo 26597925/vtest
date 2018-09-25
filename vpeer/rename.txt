@@ -1,0 +1,10 @@
+1.注册协议。
+2.查找协议。
+3.注销协议。
+avdevice_register_all(void)
+AVInputFormat *ifmt = av_find_input_format("myoss");
+
+
+
+1.main 配置相应参数，实例化一些基本变量参数。启动主进程。
+2.process 启动work进程，其他相关进程。管理所有进程的状况。
